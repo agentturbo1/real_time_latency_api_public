@@ -417,8 +417,8 @@ class SynopticPushClient(websocket_client_base):
         with open('session.txt', 'w') as fp:
             fp.write(self.sid)
 
-
-URL = 'wss://push.synopticlabs.org/feed/28a4c008eb8642198583208f9ce36812'
+## TODO Add a valid token below
+URL = 'wss://push.synopticlabs.org/feed/<your token here>'
 
 define("port", default=8888, help='Run on given port', type=int)
 
