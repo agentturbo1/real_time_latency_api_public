@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        p {
+        font-size: 25px
+        }
+
+        a {
+        background-color: lightgray;
+        color: cadetblue;
+        font-family: monospace, monospace;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>SynopticLabs Real Time Latency Monitor</title>
+</head>
+<body>
+    <h1 style="text-align: center">Welcome to Synoptic Data's Latency API Service!</h1>
+    <hr>
+
+    <!--<div id="table_contents">
+        <table>
+            <tr>
+                <td><a href="#intro">Intro</a></td>
+                <td><a href="#details">Specifications</a></td>
+            </tr>
+        </table>
+    </div>-->
+    <div id="intro">
+        <h2>Overview</h2>
+        <p>Good! You've gotten the latency service up and running. This is the landing page of the Latency API Service
+            and will describe a few things about it. If you already know about the service go ahead and do your thing.
+        </p>
+        <p>
+            The Latency API Service provides a comprehensive way of retrieving latencies of various stations or networks
+            within the <a href="https://synopticlabs.org/api/mesonet/">Mesonet API</a> using GET requests. This can be used
+            to monitor any station(s) or network(s) in near real time to see if there may be an error in the Mesonet API or
+            an issue with a station.
+        </p>
+
+        <p>To get a glimpse of what the API offers go to this link:
+            <a href="localhost:8888/monitor" target="_blank">localhost:8888/monitor</a>
+        </p>
+        <p>
+            This shows everything that the service currently has in memory. The memory gets dumped into log files every
+            (15) minutes.
+        </p>
+    </div>
+    <div id="details"></div>
+</body>
+</html>
